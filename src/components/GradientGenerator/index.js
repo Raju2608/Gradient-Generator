@@ -70,7 +70,7 @@ class GradientGenerator extends Component {
             {gradientDirectionsList.map(eachDirection => (
               <GradientDirectionItem
                 key={eachDirection.directionId}
-                gradientDirectionsDetails={eachDirection}
+                gradientDirectionDetails={eachDirection}
                 clickGradientDirectionItem={this.clickGradientDirectionItem}
                 isActive={activeGradientDirection === eachDirection.value}
               />
